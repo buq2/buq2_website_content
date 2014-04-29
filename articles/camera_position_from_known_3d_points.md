@@ -3,12 +3,21 @@
     "LongTitle": "Camera position estimation from known 3D points",
     "Description": "How to find (noncalibrated) camera position, orientation and camera matrix from 6+ known 3D points",
     "DateCreated": "2014-04-22 19:57",
-    "DateModified": "2014-04-22 19:57",
-    "Icon": "/static/img.png",
+    "DateModified": "2014-04-29 20:53",
+    "Icon": "/content_static/articles/camera_position_from_known_3d_points/icon.png",
     "Tags": ["camera geometry", "3d"]
 }
 
 ---------- META END ----------
+
+This article describes how to find camera matrix, including calibration matrix, from 6 or more known 3D points which have been projected to the camera sensor. Good reference for the article is in [^hza71].
+
+# Problem description
+
+We know at least six 3D points in the scene ($X, Y$ and $Z$ coordinates) and their location at the camera sensor in pixel coordinates. We would like to find the location and orientation of the camera.
+
+# Basics
+
 If your object has 6 known points (known 3D coordinates, $X, Y$ and $Z$) you can compute the location of the camera related to the objects coordinate system.
 
 First some basics. 
@@ -145,3 +154,6 @@ $$
 $$
 
 And so on.
+
+
+[^hza71]: Harley, Zisserman - Multiple View Geometry 2004. Algorithm 7.1
