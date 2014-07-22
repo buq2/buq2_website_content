@@ -3,15 +3,14 @@
 ## Who am I?
 
 My name is Matti Jukola. I currently live in Tampere, Finland and work
-as an development engineer at [Pixact Ltd](http://www.pixact.fi). I have been
-working professionally with image processing / computer vision / image
+as an development engineer at company specializing at industrial image based measurement.
+I have been working professionally with image processing / computer vision / image
 based measurement since 2008. I spend most of my spare time coding,
 learning, doing electronics and exercising.
 
 ## Still Processing
 
-I should have started writing and contributing to OSS many years a
-go but I prioritized other things. Finally in 2014 I got
+Finally in 2014 I got
 "Still Processing" blog up and running and converted few lectures, presentations
 and other old things in to few small articles.
 
