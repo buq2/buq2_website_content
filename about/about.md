@@ -3,7 +3,7 @@
 ## Who am I?
 
 My name is Matti Jukola. I currently live in Tampere, Finland and work
-as an development engineer at company specializing at industrial image based measurement.
+as a development engineer at company specializing at industrial image based measurement.
 I have been working professionally with image processing / computer vision / image
 based measurement since 2008. I spend most of my spare time coding,
 learning, doing electronics and exercising.
