@@ -1,6 +1,6 @@
 {
     "Title": "Audible altimeter part 1",
-    "LongTitle": "Electronics project: Audible altimeter - Requirement",
+    "LongTitle": "Electronics project: Audible altimeter - Requirements",
     "Description": "I plan to build audible altimeter for next years skydiving season. Here are the requirements for the altimeter.",
     "DateCreated": "2014-10-06 17:44",
     "DateModified": "2014-10-06 19:23",
