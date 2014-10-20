@@ -35,6 +35,10 @@ Even if the project fails, I hope it will create good material for some other we
 # Requirements
 
 * Approximate size: 5cm x 5cm x 1cm
+    * Neptune N3: 6.2cm x 4.3cm x 1.2cm
+    * Optima II: 5.6cm x 4.1cm x 1.1cm
+    * 5cm x 3.2cm x 1.6cm fits Cookie G3 nicely
+    * Current PCB 50mm x 35mm
 * USB rechargeable battery
 * Audible alarm
 * Relatively good altitude accuracy (+-50m) with small lag
