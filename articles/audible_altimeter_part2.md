@@ -3,7 +3,7 @@
     "LongTitle": "Electronics project: Audible altimeter - Parts",
     "Description": "Selecting parts for the audible altimeter project",
     "DateCreated": "2014-10-06 19:30",
-    "DateModified": "2014-10-06 19:30",
+    "DateModified": "2015-02-02 19:40",
     "Icon": "/content_static/articles/default/icon.png",
     "Tags": ["skydiving", "audible altimeter", "electronics"],
     "CreateToc": true
@@ -33,17 +33,30 @@
     * 8.5µA-40µA-265µA@3.3V 1Hz update rate
     * I2C
     * 2.9€ @ Digikey
+    * 2V - 3.6V
+* Barometer2: Measurement Specialties: MS5805-02BA01
+    * 1.8V - 3.6V
 * Acceleration/heading: InvenSense MPU-9250 ([^MPU9250])
     * Just for the fun of it
     * Barometer data might be little bit boring while developing
     * 5mA max?
     * I2C
     * 11€
+    * 2.4V - 3.6V
+* GPS: Linx FM Module
+    * http://www.linxtechnologies.com/resources/data-guides/rxm-gps-fm.pdf
+    * 3.0V - 4.3V
+* GPS: SIM33ELA ?
+* GPS antenna: Pulse W3011A
+* Hymidity sensor: Silicon Labs 336-2540-1-ND
+    * I2C
+    * 1.9V - 3.6V
 * Clock: Microchip MCP7940M ([^CLOCK])
     * MCU could do everything this chip can do, but why not just add another i2c chip?
     * 1.2µA@3.3V timekeeping
     * 0.69€ @ Digikey MCP7940MT-I/MNY MCP7940MT-I/MNYCT-ND
     * I2C
+    * 1.8V - 5.5V
 * Crystal Oscillator
     * 0805
     * 0.9€ @ Digikey CM315D32768EZFT 300-8816-1-ND
@@ -54,27 +67,32 @@
     * 12µW dynamic display @ 1Hz
     * 15€ (Mouser)
 * FPS connector
-    * SFV10R-2STE1HLF 609-4306-1-ND
+    * SFV10R-2STE1HLF 609-4306-1-ND - Top contacts
+    * SFV10R-1STE1HLF 609-4305-1-ND - Bottom contacts <- Use this for 180 bent (under PCB)
     * 0.55€ (Digikey)
-    * Contacts upper side (180 bent)
     * 0.5mm pitch
     * 0.3mm FPC thickness
-    * 0.6€ @ Digikey
+    * 0.7€ @ Digikey
 * Buzzer
     * CSS-0575A-SMT-TR 102-2201-1-ND
     * 3.7€ (Digikey)
     * 5mm x 5mm x 2.4mm
     * Drive with NPN BJT + 180 OHM + protective diode
     * 3.2€ @ Digikey
+    * 2V - 4V
 * USB charging IC
     * MCP73831 http://www.digikey.fi/product-detail/en/MCP73831T-2ACI%2FOT/MCP73831T-2ACI%2FOTCT-ND/1979802
     * Sparkfun
     * 0.4€ @ Digikey
 * USB connector
     * Micro B
-    * 0.4€ @ Digikey 609-4616-1-ND
+    * 0.4€ @ Digikey 609-4616-1-ND or 609-4618-1-ND
 * Micro SD card slot
-    * 1.1€ @ Digikey 101-00660-68-6-1-ND 
+    * 1.1€ @ Digikey 101-00660-68-6-1-ND
+* Flash memory
+    * S25FL216K
+    * 2.7V - 3.6V
+    * SOIC-8
 * 3.3V supply IC
     * Linear regulator
     * Reasoning: For 3.3V linear offers ~90% efficiency. 2.7V design would not
