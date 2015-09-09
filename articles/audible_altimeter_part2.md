@@ -11,6 +11,9 @@
 
 ---------- META END ----------
 
+Below is notes about the components chosen for the first version of the
+altimeter and some notes.
+
 * Air pressure changes approximately 1.44kPa / 100m
 * Sensor interface: i2c
     * SPI would be easier to interface with, but I2C is better learning experience

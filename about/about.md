@@ -26,4 +26,4 @@ You can contact me by:
 
 * IRC: buq2 @ {freenode, IRCnet}
 * Email: contact@buq2.com
-* [Linkedin](fi.linkedin.com/in/jukolam)
+* [Linkedin](http://fi.linkedin.com/in/jukolam)
