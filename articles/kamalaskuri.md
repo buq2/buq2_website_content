@@ -22,13 +22,13 @@ yhteisön mielestä oikeaan suuntaan.
 ## Laskurin "totuuksia"
 
 - Päävarjon arvo uutena on sen ostohinta.
-- Päävarjon arvo, huollosta ja punoksista huolimatta 20v vanhana on 0€.
+- Uudelle ja "keski-ikäiselle" kalustolle tehtävät huoltotyöt ja tarkastukset nostavat kaluston arvoa töiden hinnan verran
 - Cypressin arvo 12v tai sitä vanhempana on 100€
 
 ## Seurauksia:
 
-- Punosten vaihtaminen 400€:llä kymmenen vuotta vanhaan päävarjoon nostaa päävarjon arvoa vain 200€:llä.
-- Vanhojen kamojen huollattaminen nostaa kamojen arvoa vähemmän kuin uusien.
+- 20V vanhan varjon arvo on sen punosten sekä tarkastusten arvo
+    - Käytännössä laskuri ei siis ole toimiva tavattoman vanhoille kamoille
 
 
 # Laskuri

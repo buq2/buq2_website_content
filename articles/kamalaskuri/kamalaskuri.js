@@ -104,9 +104,9 @@ var calculateWorth = function() {
     var worth_maint_aad = worth_maint_aad_relative*maint_aad;
 
     // Calculate worth of components
-    var worth_main = Math.round( (main_without_extra + worth_lines + worth_maint_main) * worth_main_relative );
-    var worth_reserve = Math.round( (reserve_without_extra + worth_maint_reserve) * worth_reserve_relative);
-    var worth_container = Math.round( (container_without_extra + worth_maint_container) * worth_container_relative);
+    var worth_main = Math.round( main_without_extra * worth_main_relative + worth_lines + worth_maint_main);
+    var worth_reserve = Math.round( reserve_without_extra * worth_reserve_relative + worth_maint_reserve);
+    var worth_container = Math.round( container_without_extra * worth_container_relative + worth_maint_container);
     var worth_aad = Math.round( Math.max(100, (aad_without_extra + worth_maint_aad) * worth_aad_relative));
 
     $("#container-worth").val(worth_container);
