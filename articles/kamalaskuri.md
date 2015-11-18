@@ -16,27 +16,22 @@
 
 Laskurin on tarkoitus olla objektiivinen ja tunteeton kamojen arvon
 laskuri joka ottaa huomioon vain käyttöiän, tarvittavat huollot sekä
-yksinkertaisen kuluman.
-
-Kommentteja voi jättää. Korjailen laskuria kommenttien perusteella
+yksinkertaisen kuluman. Kommentteja voi jättää. Korjailen laskuria kommenttien perusteella
 yhteisön mielestä oikeaan suuntaan.
 
 ## Laskurin "totuuksia"
 
-Päävarjon arvo uutena on sen ostohinta.
-
-Päävarjon arvo, huollosta ja punoksista huolimatta 20v vanhana on 0€.
-
-Cypressin arvo 12v tai sitä vanhempana on 100€
+- Päävarjon arvo uutena on sen ostohinta.
+- Päävarjon arvo, huollosta ja punoksista huolimatta 20v vanhana on 0€.
+- Cypressin arvo 12v tai sitä vanhempana on 100€
 
 ## Seurauksia:
 
-Punosten vaihtaminen 400€:llä kymmenen vuotta vanhaan päävarjoon nostaa päävarjon arvoa vain 200€:llä.
-
-Vanhojen kamojen huollattaminen nostaa kamojen arvoa vähemmän kuin uusien.
-
+- Punosten vaihtaminen 400€:llä kymmenen vuotta vanhaan päävarjoon nostaa päävarjon arvoa vain 200€:llä.
+- Vanhojen kamojen huollattaminen nostaa kamojen arvoa vähemmän kuin uusien.
 
 
+# Laskuri
 
 <table style="margin:0 auto;">
     <tr>
