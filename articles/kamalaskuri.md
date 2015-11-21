@@ -12,26 +12,25 @@
 
 ---------- META END ----------
 
-# v1.0
+# v1.1
 
 Laskurin on tarkoitus olla objektiivinen ja tunteeton kamojen arvon
 laskuri joka ottaa huomioon vain käyttöiän, tarvittavat huollot sekä
 yksinkertaisen kuluman. Kommentteja voi jättää. Korjailen laskuria kommenttien perusteella
 yhteisön mielestä oikeaan suuntaan.
 
-## Laskurin "totuuksia"
+## Kaksi mallia
 
-- Päävarjon arvo uutena on sen ostohinta.
-- Uudelle ja "keski-ikäiselle" kalustolle tehtävät huoltotyöt ja tarkastukset nostavat kaluston arvoa töiden hinnan verran
-- Cypressin arvo 12v tai sitä vanhempana on 100€
-
-## Seurauksia:
-
-- 20V vanhan varjon arvo on sen punosten sekä tarkastusten arvo
-    - Käytännössä laskuri ei siis ole toimiva tavattoman vanhoille kamoille
-
+Laskurilla on kaksi mallia, toisessa mallissa huollon ja punosten arvo laskee
+kamojen iän myötä. Tällöin lopputulos on lähempänä [Parasalen lappusen](http://www.parasale.com/forms/used_gear.pdf)
+antamia tuloksia. Toisessa mallissa kaikki tehtävät huoltotyöt kuten punosten vaihtaminen
+kasvattavat kamapaketin arvoa huoltotyön hinnan verran.
 
 # Laskuri
+
+<form>
+<input type="radio" name="lines-and-maint-aging" value="no-aging" checked>Punosten ja huollon arvo ei laske vuosien myötä<br>
+<input type="radio" name="lines-and-maint-aging" value="aging">Punosten ja huollon arvo laskee vuosien myötä
 
 <table style="margin:0 auto;">
     <tr>
@@ -146,7 +145,6 @@ yhteisön mielestä oikeaan suuntaan.
         </td>
     </tr>
 </table>
-</div>
 
 <table style="margin:0 auto;">
     <tr>
@@ -158,16 +156,13 @@ yhteisön mielestä oikeaan suuntaan.
     </tr>
 
     <tr>
-        <td><input id="container-worth" value=0></div></td>
-        <td><input id="main-worth" value=0></div></td>
-        <td><input id="reserve-worth" value=0></div></td>
-        <td><input id="aad-worth"value=0></div></td>
-        <td><input id="total-worth"value=0></div></td>
+        <td><input id="container-worth" value=0></td>
+        <td><input id="main-worth" value=0></td>
+        <td><input id="reserve-worth" value=0></td>
+        <td><input id="aad-worth"value=0></td>
+        <td><input id="total-worth"value=0></td>
+        <div name=test id=test></div>
     </tr>
 </table>
-
-<script>
-    $("input").change(calculateWorth);
-    calculateWorth();
-</script>
+</form>
 

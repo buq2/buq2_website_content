@@ -103,13 +103,22 @@ var calculateWorth = function() {
     worth_maint_aad_relative = Math.min(1,Math.max(0,worth_maint_aad_relative));
     var worth_maint_aad = worth_maint_aad_relative*maint_aad;
 
-    // Calculate worth of components
-    var worth_main = Math.round( main_without_extra * worth_main_relative + worth_lines + worth_maint_main);
-    var worth_reserve = Math.round( reserve_without_extra * worth_reserve_relative + worth_maint_reserve);
-    var worth_container = Math.round( container_without_extra * worth_container_relative + worth_maint_container);
-    var worth_aad = Math.round( Math.max(100, (aad_without_extra + worth_maint_aad) * worth_aad_relative));
+    var use_lines_and_maint_aging = $("input:radio[name=lines-and-maint-aging]:checked").val() == "aging";
 
-    $("#container-worth").val(worth_container);
+    // Calculate worth of components
+    if (use_lines_and_maint_aging) {
+        var worth_main = Math.round( (main_without_extra + worth_lines + worth_maint_main) * worth_main_relative );
+        var worth_reserve = Math.round( (reserve_without_extra + worth_maint_reserve) * worth_reserve_relative);
+        var worth_container = Math.round( (container_without_extra + worth_maint_container) * worth_container_relative);
+        var worth_aad = Math.round( Math.max(100, (aad_without_extra + worth_maint_aad) * worth_aad_relative));
+    } else {
+        var worth_main = Math.round( main_without_extra * worth_main_relative + worth_lines + worth_maint_main);
+        var worth_reserve = Math.round( reserve_without_extra * worth_reserve_relative + worth_maint_reserve);
+        var worth_container = Math.round( container_without_extra * worth_container_relative + worth_maint_container);
+        var worth_aad = Math.round( Math.max(100, aad_without_extra*worth_aad_relative + worth_maint_aad));
+    }
+    
+    $("#container-worth").val(worth_container);    
     $("#aad-worth").val(worth_aad);
     $("#main-worth").val(worth_main);
     $("#reserve-worth").val(worth_reserve);
@@ -134,4 +143,5 @@ $(document).ready(function() {
     $("#aad-next-maint").val(year+4 + "-" + month + "-" + day);
 
     calculateWorth();
+    $("input").change(calculateWorth);
 });
