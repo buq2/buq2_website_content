@@ -44,19 +44,19 @@ kasvattavat kamapaketin arvoa huoltotyön hinnan verran.
     <tr>
         <td>Hinta: </td>
         <td>
-            <input type="number" id="container-price" name="container-price" value="2600"/>
+            <input type="number" id="container-price" name="container-price" value="2600" min="0"/>
         </td>
         <td>
-            <input type="number" id="main-price" name="main-price" value="2000"/>
+            <input type="number" id="main-price" name="main-price" value="2000" min="0"/>
         </td>
         <td>
-            <input type="number" id="reserve-price" name="reserve-price" value="1200"/>
+            <input type="number" id="reserve-price" name="reserve-price" value="1200" min="0"/>
         </td>
         <td>
-            <input type="number" id="aad-price" name="aad-price" value="1200"/>
+            <input type="number" id="aad-price" name="aad-price" value="1200" min="0"/>
         </td>
         <td>
-            <input type="number" id="total-price" name="total-price" value="0"/>
+            <input type="number" id="total-price" name="total-price" value="0" min="0"/>
         </td>
     </tr>
 
@@ -95,16 +95,16 @@ kasvattavat kamapaketin arvoa huoltotyön hinnan verran.
     <tr>
         <td>Huollon/tarkastuksen hinta:</td>
         <td>
-            <input type="number" id="container-maint-price" name="container-maint-price" value="80"/>
+            <input type="number" id="container-maint-price" name="container-maint-price" value="80" min="0"/>
         </td>
         <td>
-            <input type="number" id="main-maint-price" name="main-maint-price" value="55"/>
+            <input type="number" id="main-maint-price" name="main-maint-price" value="55" min="0"/>
         </td>
         <td>
-            <input type="number" id="reserve-maint-price" name="reserve-maint-price" value="75"/>
+            <input type="number" id="reserve-maint-price" name="reserve-maint-price" value="75" min="0"/>
         </td>
         <td>
-            <input type="number" id="aad-maint-price" name="aad-maint-price" value="195"/>
+            <input type="number" id="aad-maint-price" name="aad-maint-price" value="195" min="0"/>
         </td>
     </tr>
 </table>
@@ -113,35 +113,35 @@ kasvattavat kamapaketin arvoa huoltotyön hinnan verran.
     <tr>
         <th>Hyppyjä päävarjolla</th>
         <td>
-            <input type="number" id="main-jumps" name="main-jumps" value="0"/>
+            <input type="number" id="main-jumps" name="main-jumps" value="0" min="0"/>
         </td>
     </tr>
 
     <tr></tr>
         <th>Päävarjon kesto (hyppyä)</th>
         <td>
-            <input type="number" id="main-max-jumps" name="main-max-jumps" value="3000"/>
+            <input type="number" id="main-max-jumps" name="main-max-jumps" value="3000" min="0"/>
         </td>
     </tr>
 
     <tr>
         <th>Hyppyjä punoksilla</th>
         <td>
-            <input type="number" id="lines-jumps" name="lines-jumps" value="0"/>
+            <input type="number" id="lines-jumps" name="lines-jumps" value="0" min="0"/>
         </td>
     </tr>
     
     <tr>
         <th>Punostenvaihdon hinta</th>
         <td>
-            <input type="number" id="lines-change-price" name="lines-change-price" value="400"/>
+            <input type="number" id="lines-change-price" name="lines-change-price" value="400" min="0"/>
         </td>
     </tr>
     
     <tr>
         <th>Punosten kesto (hyppyä)</th>
         <td>
-            <input type="number" id="lines-max-jumps" name="lines-max-jumps" value="700"/>
+            <input type="number" id="lines-max-jumps" name="lines-max-jumps" value="700" min="0"/>
         </td>
     </tr>
 </table>
@@ -156,11 +156,11 @@ kasvattavat kamapaketin arvoa huoltotyön hinnan verran.
     </tr>
 
     <tr>
-        <td><input id="container-worth" value=0></td>
-        <td><input id="main-worth" value=0></td>
-        <td><input id="reserve-worth" value=0></td>
-        <td><input id="aad-worth"value=0></td>
-        <td><input id="total-worth"value=0></td>
+        <td><input type="number" id="container-worth" value=0></td>
+        <td><input type="number" id="main-worth" value=0></td>
+        <td><input type="number" id="reserve-worth" value=0></td>
+        <td><input type="number" id="aad-worth"value=0></td>
+        <td><input type="number" id="total-worth"value=0></td>
         <div name=test id=test></div>
     </tr>
 </table>
