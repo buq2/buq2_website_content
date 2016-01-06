@@ -63,7 +63,7 @@ more support but after some comparisons to Gopros mechanism I think that two ext
 
 I hope that I will have time to make necessary changes and order new batch before start of the season.
 I also think that I will try to make few chin mounts for friends who have helmets
-for which Grellfab does not sell mounting. Also if figure how to ship the mounts cheaply I might
+for which Grellfab does not sell mounting. Also if I figure how to ship the mounts cheaply I might
 start selling them.
 
 ![](/content_static/articles/skydiving_helmet_chin_mount/first_images/small_skeleton_front.jpg)
