@@ -1,6 +1,6 @@
 {
     "Title": "Chin mount",
-    "LongTitle": "Skydiving helmet chin moun",
+    "LongTitle": "Skydiving helmet chin mount",
     "Description": "Quick look at chin mount for skydiving helmet",
     "DateCreated": "2016-01-06 10:12",
     "DateModified": "2016-01-06 10:12",
