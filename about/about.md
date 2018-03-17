@@ -4,7 +4,7 @@
 
 My name is Matti Jukola. I currently live in Tampere, Finland and work
 as a development engineer at company specializing at industrial image based measurement.
-I have been working professionally with image processing / computer vision / image
+I have been working professionally with machine learning / computer vision / image
 based measurement since 2008. I spend most of my spare time coding,
 learning, doing electronics and exercising.
 
@@ -24,6 +24,5 @@ scope of this site.
 
 You can contact me by:
 
-* IRC: buq2 @ {freenode, IRCnet}
 * Email: contact@buq2.com
 * [Linkedin](http://fi.linkedin.com/in/jukolam)
