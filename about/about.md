@@ -2,11 +2,13 @@
 
 ## Who am I?
 
-My name is Matti Jukola. I currently live in Tampere, Finland and work
-as a development engineer at company specializing at industrial image based measurement.
+My name is Matti Jukola. I currently live somewhere in Europe and work remotely
+as a development engineer for a Finnish company specializing at industrial image based measurement.
 I have been working professionally with machine learning / computer vision / image
-based measurement since 2008. I spend most of my spare time coding,
-learning, doing electronics and exercising.
+based measurement and data science since 2008. I spend most of my spare time coding,
+learning, doing electronics, exercising and skydiving.
+
+I'm currently searching for a new position related computer vision, machine learning or software development.
 
 ## Still Processing
 
@@ -17,12 +19,13 @@ and other old things in to few small articles.
 I'm planning on updating this blog infrequently by writing about things
 that interest me or about things that I have learned. 
 Fortunately for me, but unfortunately for this site
-many of my interests are closely related to my work and outside of the
-scope of this site.
+many of my interests are closely related to my work at my company and therefore outside of the
+scope of this site because of NDA.
 
 # Contacting
 
 You can contact me by:
 
 * Email: contact@buq2.com
-* [Linkedin](http://fi.linkedin.com/in/jukolam)
+* [Linkedin](https://fi.linkedin.com/in/jukolam)
+* [Github](https://github.com/buq2)
